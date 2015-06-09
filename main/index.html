@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/three.js"></script>
+    <script type="text/javascript" src="js/threex.keyboardstate.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+    .instructions{
+      width: 450px;
+      border:solid 1px red;
+      position: absolute;
+      z-index: 9999;
+      top: 100px;
+      left: 100px;
+    }
+    .instructions div{
+      font-family: sans-serif;
+      color: #ffffff;
+      font-size: 36px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="instructions">
+      <div class="intro-text">
+        Press W to move forward<br>
+        Press A to turn left<br>
+        Press D to move right<br>
+        Press S to move back<br>
+
+      </div>
+    </div>
+    <div id="c"></div>
+    <script type="text/javascript" src="js/PathAnimation.js"></script>
+    <script type="text/javascript" src="js/BulletFactory.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
